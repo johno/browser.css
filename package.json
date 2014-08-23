@@ -1,7 +1,7 @@
 {
   "name": "browser.css",
   "version": "0.0.1",
-  "description": "Awesome SCSS-based browser window for debuting apps.",
+  "description": "Awesome CSS and HTML browser window for debuting apps.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
