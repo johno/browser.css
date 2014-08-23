@@ -16,6 +16,8 @@ You can directly grab either the SCSS (`scss/`) or CSS (`css/`) directly from th
 
 ### NPM Installation
 
+This is also available as an [npm package](https://www.npmjs.org/package/browser.css).
+
 ```
 $ npm install browser.css --save-dev
 ```
