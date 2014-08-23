@@ -1,0 +1,26 @@
+{
+  "name": "browser.css",
+  "version": "0.0.1",
+  "description": "Awesome SCSS-based browser window for debuting apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/browser.css"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "browser",
+    "browser",
+    "window"
+  ],
+  "author": "John Otander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/browser.css/issues"
+  },
+  "homepage": "https://github.com/johnotander/browser.css"
+}
