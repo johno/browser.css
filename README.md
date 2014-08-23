@@ -62,6 +62,10 @@ Link the CSS in your HTML document:
 </div>
 ```
 
+## LICENSE
+
+MIT
+
 ## Contributing
 
 1. Fork it
