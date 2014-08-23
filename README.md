@@ -1,10 +1,49 @@
 # Browser.css
 
+This provides the SCSS, or CSS, necessary to beautifully present web pages in a browser window.
 
+Typically, this consists of placing screenshots in browser windows, phones, etc. with photo 
+editing software. However, I like to avoid Photoshop like the plague, so I concocted a 
+CSS/HTML solution.
 
 ## Installation
 
+You can directly grab either the SCSS (`scss/`) or CSS (`css/`) directly from this repo.
+
+### NPM Installation
+
+```
+$ npm install browser.css --save-dev
+```
+
+### Development
+
+For development, there's a gulpfile that compiles the SCSS into CSS. It can be run with:
+
+```
+$ gulp
+```
+
+If you haven't used Gulp before, try 
+[this blog post](http://johnotander.com/front-end-development/2014/08/08/build-tasks-with-gulpjs/).
+
 ## Usage
+
+### SCSS
+
+Import the SCSS into your project:
+
+```scss
+@import "path/to/browser";
+```
+
+### CSS
+
+Link the CSS in your HTML document:
+
+```html
+<link rel="stylesheet" href="path/to/browser.min.css">
+```
 
 ### Example HTML for the browser window:
 
