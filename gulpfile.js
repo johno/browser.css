@@ -5,8 +5,6 @@ var rename  = require('gulp-rename');
 var cssmin  = require('gulp-minify-css');
 var csslint = require('gulp-csslint');
 var prefix  = require('gulp-autoprefixer');
-var jshint  = require('gulp-jshint');
-var uglify  = require('gulp-uglify');
 
 gulp.task('scss', function() {
   return gulp.src('scss/*.scss')
@@ -20,4 +18,4 @@ gulp.task('scss', function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['scss', 'js']);
+gulp.task('default', ['scss']);
