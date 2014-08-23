@@ -6,6 +6,10 @@ Typically, this consists of placing screenshots in browser windows, phones, etc.
 editing software. However, I like to avoid Photoshop like the plague, so I concocted a 
 CSS/HTML solution.
 
+#### The browser window in action
+
+![screenshot 2014-08-23 11 08 35](https://cloud.githubusercontent.com/assets/1424573/4021242/cdfa42c8-2ae9-11e4-8b6c-5da341258046.png)
+
 ## Installation
 
 You can directly grab either the SCSS (`scss/`) or CSS (`css/`) directly from this repo.
@@ -45,7 +49,7 @@ Link the CSS in your HTML document:
 <link rel="stylesheet" href="path/to/browser.min.css">
 ```
 
-### Example HTML for the browser window:
+### Example HTML for the browser window
 
 ```html
 <div class='browser-window'>
