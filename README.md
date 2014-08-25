@@ -54,15 +54,15 @@ Link the CSS in your HTML document:
 ### Example HTML for the browser window
 
 ```html
-<div class='browser-window'>
-  <div class='top-bar'>
-    <div class='circles'>
+<div class="browser-window">
+  <div class="top-bar">
+    <div class="circles">
        <div class="circle circle-red"></div>
        <div class="circle circle-yellow"></div>
        <div class="circle circle-green"></div>
     </div>
   </div>
-  <div class='content'>
+  <div class="content">
     <!-- Where the browser content goes. -->
   </div>
 </div>
